@@ -1,0 +1,24 @@
+{
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "manifest_version": 3,
+  "name": "稍后再看",
+  "version": "1.0",
+  "description": "右键或点击快速保存稍后阅读的页面",
+  "permissions": ["storage", "tabs", "contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "点击保存当前页面",
+    "default_icon": "icons/icon32.png",
+    "default_popup": "saved.html"
+  },
+  "icons": {
+    "32": "icons/icon32.png"
+  }
+}

@@ -1,0 +1,45 @@
+body {
+    background-color: transparent;  /* 让 body 背景透明 */
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+    width: 200px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 13px;
+    max-width: 180px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+h2 {
+    text-align: center;
+    margin: 0 0 12px 0;
+    font-size: 16px;
+    color: #333;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+li {
+    margin: 6px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: red;
+    font-size: 10px;
+}
